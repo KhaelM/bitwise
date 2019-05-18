@@ -1,1 +1,16 @@
 => if only one one the two bits is 1 then result is 1
+=> it'is used to turn an option to on or true in a set of already chosen options:
+    eg: we have 8 cars and [from 0 to 7]
+        0000 0000 => no car in use
+        0110 0100 => current cars in use
+
+        We want to make car number 0 to be in use
+        Operation:
+        0110 0100
+    |   0000 0001
+    --------------
+        0110 011
+
+        We didn't affect other cars in use
+        and even if the car was in use
+        result would be the same because 1|1 = 1
