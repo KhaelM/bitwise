@@ -1,0 +1,6 @@
+=> ~(number) = -(number+1)
+=> used to deactivate an option:
+    ex: curOption = 1100 0010
+        optionToDeactivate = 1000 0000
+
+        curOption = curOption & ~(optionToDeactivate)
