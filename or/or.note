@@ -1,4 +1,4 @@
-=> if only one one the two bits is 1 then result is 1
+=> if one or both one the two bits is 1 then result is 1
 => it'is used to turn an option to on or true in a set of already chosen options:
     eg: we have 8 cars and [from 0 to 7]
         0000 0000 => no car in use
