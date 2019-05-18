@@ -1,0 +1,8 @@
+=> used to toogle an option:
+    eg: optionsInUse = 1101 0001
+        optionToToogle = 1000 0000
+
+        optionsInUse ^ optionToToogle = 0101 0001
+
+        And again if we still doing it we get the prev value :
+        optionsInUse ^ optionToToogle = 1101 0001
