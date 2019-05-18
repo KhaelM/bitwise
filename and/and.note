@@ -1,0 +1,4 @@
+=> only 1 & 1 = 1
+=> it's used to test if a number ,which bit patterns is composed of option, 
+    contains a particular bit (a bit composed of only one 1 => 0000 0001) whichs could be an option:
+    if the number don't contains the bit the result will be 0.
